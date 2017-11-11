@@ -13,7 +13,6 @@ endTime = time.time()
 print('The result is %s digits long.' % len(str(prod)))
 time.sleep(1)                                       # pause program for 1 second
 print('Took %s seconds to calculate.' % (endTime - startTime))
-# cProfile profiler: Gives the total running time, times each function separately, and tells how many times each function was called
 
 # datetime:
 print("Computer's clock time: " + str(datetime.datetime.now()))

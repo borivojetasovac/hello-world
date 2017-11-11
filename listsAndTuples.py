@@ -24,7 +24,7 @@ print('Cat names are: ' + str(catNames))
 
 # The Multiple Assignment Trick - the number of variables and the lenght of the list must be exactly equal
 cat = ['fat', 'black', 'loud']
-catSize, catColor, catDisposition = cat             # useful when a function returns a tuple
+catSize, catColor, catDisposition = cat
 print('Cat size: ' + catSize + ', color: ' + \
     catColor + ', disposition: ' + catDisposition)  # split up a single instruction with \      the indentation on the line after \ does not matter
 
